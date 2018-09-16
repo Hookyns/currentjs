@@ -1,0 +1,3 @@
+module currentjs.nodelist {
+
+}

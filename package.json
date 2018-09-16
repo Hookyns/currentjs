@@ -1,0 +1,30 @@
+{
+	"name": "currentjs",
+	"version": "1.0.0",
+	"description": "Minimalist DOM utility. Working with DOM with extended prototype.",
+	"main": "index.js",
+	"types": "globals.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepublish": ".\\node_modules\\.bin\\uglifyjs ./dist/currentjs.js --output ./dist/currentjs.min.js --compress --mangle-props"
+	},
+	"keywords": [
+		"currentjs",
+		"javascript",
+		"js",
+		"today",
+		"no-jquery",
+		"min",
+		"minimalist",
+		"dom",
+		"utility",
+		"prototype",
+		"helper"
+	],
+	"author": "Roman Jámbor",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^3.0.3",
+		"uglify-js": "^3.4.9"
+	}
+}
